@@ -14,8 +14,10 @@ Grandes telas: acima de 1200px
         background-image: linear-gradient(to top, #49a09d, #5f2c82); 
         /*Tablet: 768px até 992px*/
     }
+    
     section#login {
         width: 80vw;
+        height: 70%;
 
     }
    
