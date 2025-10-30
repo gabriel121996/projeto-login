@@ -9,23 +9,16 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-
+   
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #49a09d, #5f2c82); 
+        /*Tablet: 768px até 992px*/
     }
-    main {
-        position: relative;
-        width: 100vw;
-        height: 30vh;
-    }
-
     section#login {
-        width: 90vw;
-        position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%);
+        width: 80vw;
+
     }
+   
     section#login > div#imagem {
         float: left;
         width: 30%;
